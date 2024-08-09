@@ -20,9 +20,9 @@ require (
 	github.com/stretchr/testify v1.9.0
 	github.com/wayneashleyberry/terminal-dimensions v1.1.0
 	golang.org/x/crypto v0.24.0 // indirect
-	golang.org/x/image v0.18.0
-	golang.org/x/sys v0.22.0
-	golang.org/x/text v0.16.0
+	golang.org/x/image v0.19.0
+	golang.org/x/sys v0.23.0
+	golang.org/x/text v0.17.0
 	gopkg.in/ini.v1 v1.67.0
 )
 
@@ -35,12 +35,12 @@ require (
 	github.com/goccy/go-yaml v1.11.3
 	github.com/gookit/goutil v0.6.16
 	github.com/hashicorp/hcl/v2 v2.21.0
-	github.com/mattn/go-runewidth v0.0.15
+	github.com/mattn/go-runewidth v0.0.16
 	github.com/pelletier/go-toml/v2 v2.2.2
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8
-	golang.org/x/mod v0.19.0
+	golang.org/x/mod v0.20.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -91,7 +91,7 @@ require (
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	github.com/zclconf/go-cty v1.14.4 // indirect
-	golang.org/x/sync v0.7.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 )

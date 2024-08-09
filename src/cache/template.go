@@ -10,6 +10,7 @@ type Template struct {
 	Root          bool
 	PWD           string
 	AbsolutePWD   string
+	PSWD          string
 	Folder        string
 	Shell         string
 	ShellVersion  string
@@ -22,6 +23,7 @@ type Template struct {
 	WSL           bool
 	PromptCount   int
 	SHLVL         int
+	Jobs          int
 	Segments      *maps.Concurrent
 	SegmentsCache maps.Simple
 

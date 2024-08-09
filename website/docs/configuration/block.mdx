@@ -41,7 +41,7 @@ Tells the engine what to do with the block. There are two options:
 
 - `prompt` renders one or more segments
 - `rprompt` renders one or more segments aligned to the right of the cursor. Only one `rprompt` block is permitted.
-  Supported on zsh, bash, PowerShell, cmd, nu and fish.
+  Supported on zsh, PowerShell, cmd, nu and fish.
 
 ### Newline
 
@@ -50,8 +50,6 @@ that's defined on the first block when the prompt is on the first line (when usi
 starts (1st prompt). To enable the same behavior for `bash` and `zsh`, set `enable_cursor_positioning` to `true`.
 This can have the side effect of swallowing commands you type while the prompt loads, or while the current
 command is still ongoing. This is a limitation of the shell and not Oh My Posh.
-
-```json
 
 ### Alignment
 

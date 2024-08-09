@@ -102,8 +102,8 @@ func Init(sh string) {
 	Shell = sh
 	Program = getTerminalName()
 
-	log.Debug("Terminal shell: %s", Shell)
-	log.Debug("Terminal program: %s", Program)
+	log.Debug("terminal program:", Program)
+	log.Debug("terminal shell:", Shell)
 
 	color.TrueColor = Program != AppleTerminal
 
@@ -163,7 +163,7 @@ func Pwd(pwdType, userName, hostName, pwd string) string {
 	}
 
 	if strings.HasSuffix(pwd, ":") {
-		pwd += "\\"
+		pwd += `/`
 	}
 
 	switch pwdType {
@@ -400,6 +400,7 @@ func write(s rune) {
 		}
 	}
 
+	// length += utf8.RuneCountInString(string(s))
 	length += runewidth.RuneWidth(s)
 	lastRune = s
 	builder.WriteRune(s)
